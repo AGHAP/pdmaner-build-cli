@@ -10,7 +10,7 @@
     "cli",
     "automate"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "pnpm clean && tsc",
     "clean": "rimraf ./dist",
