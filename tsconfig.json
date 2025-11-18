@@ -29,7 +29,7 @@
     "declaration": true,
     "declarationMap": false,
 
-    "noEmit": true,
+    "noEmit": false,
     "outDir": "./dist",
     // and npm install -D @types/node
 
@@ -42,9 +42,10 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*"
   ],
   "exclude": [
+    "node_modules",
     "dist/**/*"
   ]
 }
