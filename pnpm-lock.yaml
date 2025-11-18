@@ -5,12 +5,18 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@types/node':
+    specifier: ^24.10.1
+    version: 24.10.1
   commitizen:
     specifier: ^4.3.1
     version: 4.3.1(@types/node@24.10.1)(typescript@5.9.3)
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: 3.3.0(@types/node@24.10.1)(typescript@5.9.3)
+  typescript:
+    specifier: ^5.9.3
+    version: 5.9.3
 
 packages:
 
@@ -107,7 +113,6 @@ packages:
     dependencies:
       undici-types: 7.16.0
     dev: true
-    optional: true
 
   /ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
@@ -1011,13 +1016,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
-    optional: true
 
   /undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
     requiresBuild: true
     dev: true
-    optional: true
 
   /universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
